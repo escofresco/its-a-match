@@ -1,7 +1,7 @@
 # justmarried
 
 Imagine this scenario: 
->>> A town would like to arrange marriages for its single men and women. Each person has a list of opposite sex suitors (this is required) in order of preference. The town would like to find an arrangement that ensures no two people would rather be with eachother than with their partner. In other words, marriages should be stable. 
+> A town would like to arrange marriages for its single men and women. Each person has a list of opposite sex suitors (this is required) in order of preference. The town would like to find an arrangement that ensures no two people would rather be with eachother than with their partner. In other words, marriages should be stable. 
 
 This is called the stable marriage problem (stable matching problem), which this project will explore in detail. In addition, this project will dive into two variations, the stable roommates problem and the college admissions problem (also known as the hospital/residents problem).
 

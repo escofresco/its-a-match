@@ -1,5 +1,5 @@
 # justmarried
-## A graph theory approach to going to college, finding a roommate, and getting married.
+## A graph theory approach to college, roommates, and marriage.
 
 Imagine this scenario: 
 > A town would like to arrange marriages for its single men and women. Each person has a list of opposite sex suitors (this is required) in order of preference. The town would like to find an arrangement that ensures no two people would rather be with eachother than with their partner. In other words, marriages should be stable. 

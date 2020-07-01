@@ -4,9 +4,9 @@
 Imagine this scenario: 
 > A town would like to arrange marriages for its single men and women. Each person has a list of opposite sex suitors in order of preference. The town would like to find an arrangement that ensures no two people would rather be with eachother than with their partner. In other words, marriages should be stable. 
 
-This is called the stable marriage problem (stable matching problem), which this project will explore in detail. In addition, this project will dive into two variations, the stable roommates problem and the college admissions problem (also known as the hospital/residents problem).
+This is called the stable marriage problem (or the stable matching problem), which this project explores in detail. In addition, it will dive into two variations of stable matching, namely the stable roommates problem and the college admissions problem (also known as the hospital/residents problem).
 
-Lloyd Shapely and David Gale were awarded a nobel prize in 1962 for proving that [for any pattern of preferences, it is always possible to arrange a set of stable marriages](https://apps.dtic.mil/dtic/tr/fulltext/u2/251958.pdf). Conversely, they proved there's always a configuration where instability doesn't occur. (Instability is when two people prefer each other over their partners.) The walkthrough below will make some sense of this.
+Lloyd Shapely and David Gale were awarded the Nobel Prize in 1962 for proving that [for any pattern of preferences, it is always possible to find a set of stable marriages](https://apps.dtic.mil/dtic/tr/fulltext/u2/251958.pdf). They proved that there's always a configuration where instability doesn't occur. (Instability is when two people prefer each other over their partners.) The walkthrough below will make some sense of this.
 
 The Gale-Shapely algorithm has the [following steps](https://www.youtube.com/watch?v=Qcv1IqHWAzg):
 1. Everyone creates a list of who they'd like to marry in order of preference.

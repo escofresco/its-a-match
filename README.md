@@ -11,7 +11,7 @@ Lloyd Shapely and David Gale were awarded the Nobel Prize in 1962 for proving th
 The Gale-Shapely algorithm has the [following steps](https://www.youtube.com/watch?v=Qcv1IqHWAzg):
 1. Everyone creates a list of who they'd like to marry in order of preference.
 1. On day one, women submit their proposals to the men. Some men won't receive any, while others will receive more than one. Men that receive a proposal select the person they most prefer.
-1. On day two, women that are rejected the day before submit a proposal to their next choice. Men can negate their previous agreement if they receive a better proposal.
+1. On day two, women that were rejected submit a proposal to their next choice. Men can negate their previous agreement if they receive a better proposal.
 1. This continues for days three, four, five, etc.
 1. Finally, a configuration is reached where everyone is in a stable match.
 

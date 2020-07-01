@@ -13,7 +13,7 @@ The Gale-Shapely algorithm has the [following steps](https://www.youtube.com/wat
 1. On day one, women submit their proposals to the men. Some men won't receive any, while others will receive more than one. Men that receive a proposal select the person they most prefer.
 1. On day two, women that were rejected submit a proposal to their next choice. Men can negate their previous agreement if they receive a better proposal.
 1. This continues for days three, four, five, etc.
-1. Finally, a configuration is reached where everyone is in a stable match.
+1. Finally, a configuration is reached where everyone is in a stable marriage.
 
 The  algorithm consists of [the following theorems](https://www.youtube.com/watch?v=LtTV6rIxhdo)::
 * *Theorem 0* It eventually stops.

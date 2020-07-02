@@ -1,6 +1,12 @@
 # justmarried
 ## A graph theory approach to marriage, roommates, and college.
-This project is concerned with matching people to people and people to things. Two problems of matching people are explored. The first comes up when trying to arrange marriages. This would be an easy problem if no one had preferences that overlapped. But the real world doesn't care if problems are easy. So rather than trying to arrange marriages that are simultaneously optimal for everyone, this solution finds an arrangment where no two people would want to be married to eachother more than their current spouse. 
+This project is concerned with matching people to people and people to things. We explore this in three flavors. 
+
+The first problem deals with arranging marriages. This would be an easy problem if no one had preferences that overlapped. But the real world doesn't care if problems are easy. So rather than trying to arrange marriages that are simultaneously optimal for everyone, the solution here is concerned with stability. This means that there's an arrangement where no two people would rather be married to eachother than to their spouse. 
+
+The second problem is a variation on the first. While the marriage problem is restricted to matches _between_ sets ("men" and "women"), the solution to this problem also allows for matches _within_ sets. 
+
+The final problem comes up in college admissions. Colleges allot a fixed number of students to admit each year. But they can't assume that everyone admitted will accept. After all, some students are admitted to more than one school, which means every school but one will have a smaller-than-expected incoming class. And since no school knows with certaintly what the applicant's top school is, every college must admit more people than allotted. And waiting lists don't solve this problem. A student may accept admission to a safety school and join the waiting list of a top choice. Then if they're admitted to the top choice, they'll have to retract acceptance of the safety. The solution implemented here will guarantee that every college will exactly meet its quota while still preferentially matching students will schools.
 
 ### Marriage
 Imagine this scenario: 
